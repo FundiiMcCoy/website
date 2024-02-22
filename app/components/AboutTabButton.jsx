@@ -1,0 +1,27 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+
+const Variants = {
+  default: { width: 0 },
+  active: { width: "calc(50% - 0.75rem)" },
+}
+
+
+const TabButton = ({ active, selectTab, children }) => {
+  const buttonClasses = active ? 'text-white border-b border-purple-500' : 'text-[#ADB7BE]';
+
+  return (
+    <button onClick={selectTab}>
+      <p className={`${buttonClasses} mr-3 font-semibold hover:text-white text-[#ADB7BE]`}>
+        {children}
+      </p>
+      <motion.div
+        animate={active ? "active" : "default"}
+        variants={Variants}
+        className="h-1 bg-primary-500 mt-2 mr-8">
+      </motion.div>
+    </button>
+  );
+}
+
+export default TabButton;
