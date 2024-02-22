@@ -5,7 +5,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import { Projects } from "./components/Projects.jsx";
 import Achievements from "./components/Achievements.jsx";
-import NavBar from "./components/NavBAr.jsx";
+import NavBar from "./components/NavBar.jsx";
 import Contact from "./components/Contact.jsx";
 import FooterElement from "./components/FooterElement.jsx";
 
