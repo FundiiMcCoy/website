@@ -23,9 +23,6 @@ import GemiSquare from '/public/images/gemisquare.jpg';
 import BALM from '/public/images/balm.jpg';
 import Umthombo from '/public/images/umthombo.jpg';
 
-
-
-
 const ProjectsData = [
 
   {
@@ -35,7 +32,7 @@ const ProjectsData = [
     description: "Crafting a sophisticated logo and brand identity for a premier travel agency set to redefine luxury travel experiences in Africa and beyond.",
     image: iTravel.src,
     tag: ["All", "Brand Identity"],
-    previewUrl: "/",
+    previewUrl: "https://www.behance.net/gallery/192719275/Brand-Identity",
 
   },
   {
@@ -45,7 +42,7 @@ const ProjectsData = [
     description: "Crafting visually compelling content and designing eye-catching covers for a South African business magazine.",
     image: WYBMag.src,
     tag: ["All", "Publication"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192732673/Business-Magazine-Design"
 
   },
 
@@ -56,7 +53,7 @@ const ProjectsData = [
     description: "Planning, designing, and curating engaging social media content to promote the Sarafina theatrical production in Durban.",
     image: Sarafina.src,
     tag: ["All", "Digital"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192802331/Sarafina-Social-Media-Content-Design"
 
   },
   {
@@ -66,7 +63,7 @@ const ProjectsData = [
     description: " Illustrating and designing a captivating children's book in isiZulu, from storyboarding to print setup.",
     image: uHamboBook.src,
     tag: ["All", "Publication"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192780417/isiZulu-Childrens-Book"
 
   },
   {
@@ -76,7 +73,7 @@ const ProjectsData = [
     description: "Designing a comprehensive workbook for training on crowd control, providing essential tools and insights for effective management.",
     image: UKZN.src,
     tag: ["All", "Publication"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192799105/Police-Workbook-Design"
 
   },
   {
@@ -107,7 +104,7 @@ const ProjectsData = [
     description: "Designing a distinctive logo and brand identity for a mobile IV drip business, blending professionalism with convenience and wellness.",
     image: Chichima.src,
     tag: ["All", "Brand Identity", "Digital"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192729609/Mobile-Spa-Brand-Development"
 
   },
   {
@@ -117,7 +114,7 @@ const ProjectsData = [
     description: "Develop a brand identity for Umthombo Farming Project, aimed at supplying fresh and low-cost fruits and vegetables conveniently during COVID-19.",
     image: Umthombo.src,
     tag: ["All", "Brand Identity", "Packaging"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192734925/Micro-Farming-NPO-Branding"
 
   },
   {
@@ -137,7 +134,7 @@ const ProjectsData = [
     description: "Establish a luxury brand identity for Real Black DIY Interiors, an interior design company in Umlazi, Durban. Develop collateral including letterhead and invoices for an established identity.",
     image: RBD.src,
     tag: ["All", "Brand Identity"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192734481/Interior-Design-Brand-Identity"
   },
 
   {
@@ -147,7 +144,7 @@ const ProjectsData = [
     description: "Revamp the packaging design of bread for a local bakery located in Umlazi, Durban. The objective is to infuse the brand's tone while preserving a modern aesthetic.",
     image: GemiSquare.src,
     tag: ["All", "Packaging"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192779641/Gemisquare-Bread-Packaging-Design"
   },
 
   {
@@ -157,7 +154,7 @@ const ProjectsData = [
     description: "Create a brand identity for Mamello Cafe, a new restaurant in Montclair, Durban. Develop collateral including signage, menu design and social media for promotions.",
     image: Mamello.src,
     tag: ["All", "Brand Identity"],
-    previewUrl: "/"
+    previewUrl: "https://www.instagram.com/mamello_cafe/"
   },
   {
     id: 11,
@@ -166,7 +163,7 @@ const ProjectsData = [
     description: "Develop a comprehensive brand identity for BALM Construction, a new modern construction company, including logo design, brand collateral, and art direction for photoshoots.",
     image: BALM.src,
     tag: ["All", "Brand Identity", "Digital"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192721563/Construction-Brand-Identity"
   },
   {
     id: 15,
@@ -175,7 +172,7 @@ const ProjectsData = [
     description: "Develop and execute a campaign for the national annual general meeting, including pre-event promotion, live event coverage on social media, and post-event PR support.",
     image: AFASA.src,
     tag: ["All", "Brand Identity", "Digital"],
-    previewUrl: "/"
+    previewUrl: "https://www.behance.net/gallery/192720495/African-Farmers-Event-Coverage-Branding"
   },
 ]
 export const Projects = () => {
