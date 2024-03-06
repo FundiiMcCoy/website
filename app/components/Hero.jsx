@@ -6,6 +6,7 @@ import Image from 'next/image';
 
 /*-------------------COMPONENTS--------------------*/
 import ProPic from '/public/images/profile-pic.png';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -40,12 +41,16 @@ const Hero = () => {
             Hey, I&apos;m Fundile, a seasoned graphic designer with a passion for visual storytelling and design. Over 5 years in the field, I&apos;ve mastered the art of transforming concepts into impactful designs. Let&apos;s bring your ideas to life through the lens of compelling visual communication&#39;
           </p>
           <div>
-            <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
-              Hire Me
-            </button>
-            <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white  mt-3'>
-              <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-3'>Download CV</span>
-            </button>
+            <Link href={'#projects'}>
+              <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
+                See Work
+              </button>
+            </Link>
+            <Link href={'https://drive.google.com/file/d/1LQZ09FVJQ96egDAmbmlA7dwZ4N2Pxz_V/view?usp=share_link'}>
+              <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white  mt-3'>
+                <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-3'>Download CV</span>
+              </button>
+            </Link>
           </div>
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0 }}

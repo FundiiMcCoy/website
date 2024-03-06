@@ -12,8 +12,8 @@ const NavBar = () => {
       <div className='container mx-auto lg:py-4 p-4 md:p-8 py-2 flex items-center justify-between'>
         <Link href='/' className='text-xl md:text-3xl text-white font-semibold'>
           <h1>
-            Fundi
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Design</span>
+            design
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Fundi</span>
           </h1>
         </Link>
 
@@ -31,7 +31,7 @@ const NavBar = () => {
 
         <div className={`md:flex md:w-auto ${navBarOpen ? 'block' : 'hidden'}`} id='navbar'>
           <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
-            <li className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>
+            <li className='block bg-[#121212] bg-opacity-100 py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white'>
               <Link href="#about" className='py-2 pl-3 pr-4 text-[#ADB7BE] md:m-10 sm:text-xl rounded md:p-0 hover:text-white'>
                 About
               </Link>
